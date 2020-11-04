@@ -1,0 +1,40 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    display: flex;
+}
+
+#main-doc{
+    height: 100%;
+    width: 100%;
+}
+
+#navbar{
+    position: fixed;
+    letter-spacing: 2px;
+    width: 23%;
+    height: 100%;
+    background-color: rgb(143, 37, 69);
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.main-section{
+    display: flex;
+    width: 75%;
+    border: 1px black solid;
+    margin-left: 24vw;
+    flex-direction: column;
+    padding: 5px 30px;
+    box-sizing: border-box;
+}
+
+h1{
+    font-family: 'Anton', sans-serif;
+    font-size: 40px;
+    color: rgb(143, 37, 69);
+}
+
+
